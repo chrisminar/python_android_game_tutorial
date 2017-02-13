@@ -4,21 +4,23 @@ The series is a guide to go from zero programming experience to having a working
 This repository contains the basic files we go through in the Youtube videos and the full game source code.  
 
 ##Part 1: get game working on computer  
-###1. Install git bash
+###1. Install [git bash](https://git-for-windows.github.io/)  
 ###2. Clone this repo to your computer (example filepath)  
 	> cd /c/Users/Chris\ Minar/Documents/Python  
 	> git clone https://github.com/chrisminar/python_android_game_tutorial  
-###3. Install anaconda 2.7 32 bit  
-###4. Install pygame 2.7 32 bit  
+###3. Install [anaconda 2.7 32 bit](https://www.continuum.io/downloads#windows)  
+###4. Install [pygame 2.7 32 bit](http://www.pygame.org/download.shtml)  
 ###5. Go through code with youtube series  
 
 ##Part 2: port to android  
-###1. Install pygame_sdl2  
-	> cd /c/Users/Chris\ Minar/Documents/pygame_sdl2  
+###1. Install [pygame_sdl2]()  
+	> cd /c/Users/Chris\ Minar/Documents/  
+	> git clone https://github.com/renpy/pygame_sdl2  
+	> cd pygame_sdl2  
 	> python setup.py install  
-###2. Install java sdk  
-###3. Install android sdk  
-	> cd /c/Users/Chris\ Minar/Documents/rapt  
+###2. Install [java sdk](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)  
+###3. Install [android sdk](http://nightly.renpy.org/current/)  
+	> cd /c/Users/Chris\ Minar/Documents/rapt
 	> python android.py installsdk  
 ###4. Build game for phone  
 	> python android.py configure "/c/Users/Chris\ Minar/Documents/Python/python_android_game_tutorial"  
